@@ -35,14 +35,13 @@ I used compact command to install ROS melodic written by zeta(https://github.com
 
 **NOTE**  A SWAP partition of about 8 GB on the jetson sd card is necessary to increase the virtual memory available beyond the Jetsons onboard RAM. In my experience the catkin compilation process uses all the onboard RAM and stalls indefinitely and does not complete without adding a SWAP partition. Example instructions for adding a SWAP partition. 
 
-## Contents
-### Fire detection
+## Fire detection
 
 Fire detection of this project is for fire fighting purposes. So we considered a way to accurately detect fire through two sensors and then find the coordinate value of the fire.
 
 The fire detection system determines that the fire was truly detected when object detection by the camera sensor and fire wavelength detection by the flame sensor were performed at the same time.
 
-#### Object Detection
+### Object Detection
 
 The project contains object detection by using darknet yoloV4-tiny. 
 I made customize weight file by machine learning. 
@@ -51,12 +50,12 @@ I extracted the coordinate value of fire by extracting the coordinate of the bou
 And i modified batch and subdivision for Jsons capability.
 
 
-#### Fire wavelength detection
+### Fire wavelength detection
 
 A flame sensor is detect a specific wavelength generated only fire.(185nm~260nm) It can detect up to flame of in front 0.5m(50cm)
   
   
-#### System only Fire Detection  
+### System only Fire Detection  
 
   <img src = https://github.com/yongscode/Fire-Detected-by-two-senser-/blob/main/data.PNG>
                                            < System operation when a fire is detected>
