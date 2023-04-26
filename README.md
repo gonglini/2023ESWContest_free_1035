@@ -13,7 +13,7 @@ The software is composed of Arduino, C++ and Python nodes in a ROS framework.
 
 The frame utilized is aluminum profile with acryl plate. 
 
-Component List:
+#### Component List:
 * Computer: Jetson Nano 4gb B01 
 * MCU: ESP32 node32s
 * Motors: 520 DC encoder motor
@@ -23,7 +23,7 @@ Component List:
 * Battery: 4s 1600 mAh Lipo
 * other: XL4015 dc-dc stepdown converter, customized PCB etc..
 
-Software version:
+#### Software version:
 * Jetpack 4.5.1
 * OpenCV 4.5.1
 * CUDA 10.0
@@ -33,8 +33,6 @@ Software version:
 * ROS Melodic
 
 I used compact command to install ROS melodic written by zeta(https://github.com/zeta0707/installROS.git)
-
-**NOTE**  A SWAP partition of about 8 GB on the jetson sd card is necessary to increase the virtual memory available beyond the Jetsons onboard RAM. In my experience the catkin compilation process uses all the onboard RAM and stalls indefinitely and does not complete without adding a SWAP partition. Example instructions for adding a SWAP partition. 
 
 ## Fire detection
 
