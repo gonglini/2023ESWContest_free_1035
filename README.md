@@ -20,7 +20,6 @@ Component List:
 * Battery: 4s 1600 mAh Lipo
 * other: XL4015 dc-dc stepdown converter, customized PCB etc..
 
-
 #### Software:
 
 Software version:
