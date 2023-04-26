@@ -6,8 +6,13 @@ This project was created by undergraduates attending Suwon, Kyungil Univ.
 This project is the source code for self-Driving fire Truck. This code implements motion control of a 1:8 sclae car, including move by joystick or autonomatically. Supporting libraries provide additional capabilities, such as object detection by camera to provide accident. The software is implemented on a Jetson Nano running Ubuntu 18.04 with ROS Melodic installed.
 
 The software is composed of Arduino, C++ and Python nodes in a ROS framework.
+  
+### System only Fire Detection  
 
-#### Hardware:
+  <img src = https://user-images.githubusercontent.com/65767592/234625663-d3126ebf-9e43-4861-80fd-877d0332d435.PNG>
+                                          
+#### Hardware: 
+
 The frame utilized is aluminum profile with acryl plate. 
 
 Component List:
@@ -53,11 +58,5 @@ And i modified batch and subdivision for Jsons capability.
 ### Fire wavelength detection
 
 A flame sensor is detect a specific wavelength generated only fire.(185nm~260nm) It can detect up to flame of in front 0.5m(50cm)
-  
-  
-### System only Fire Detection  
 
-  <img src = https://github.com/yongscode/Fire-Detected-by-two-senser-/blob/main/data.PNG>
-                                           < System operation when a fire is detected>
-  
 
