@@ -7,7 +7,7 @@ This project is the source code for self-Driving fire Truck. This code implement
 
 The software is composed of Arduino, C++ and Python nodes in a ROS framework.
   
-### System only Fire Detection  
+### System
 
   <img src = https://user-images.githubusercontent.com/65767592/234625663-d3126ebf-9e43-4861-80fd-877d0332d435.PNG>
                                           
