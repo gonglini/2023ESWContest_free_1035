@@ -13,16 +13,6 @@ The software is composed of Arduino, C++ and Python nodes in a ROS framework.
 
 The frame utilized is aluminum profile with acryl plate. 
 
-#### Component List:
-* Computer: Jetson Nano 4gb B01 
-* MCU: ESP32 node32s
-* Motors: 520 DC encoder motor
-* Sensor: arduino fire detector 
-* Lidar: Rplidar A1
-* Actuator: Dinamixel
-* Battery: 4s 1600 mAh Lipo
-* other: XL4015 dc-dc stepdown converter, customized PCB etc..
-
 #### Software version:
 * Jetpack 4.5.1
 * OpenCV 4.5.1
