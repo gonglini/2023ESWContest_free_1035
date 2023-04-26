@@ -16,7 +16,7 @@ Component List:
 * Motors: 520 DC encoder motor
 * Sensor: arduino fire detector 
 * Lidar: Rplidar A1
-* actuator: Dinamixel
+* Actuator: Dinamixel
 * Battery: 4s 1600 mAh Lipo
 * other: XL4015 dc-dc stepdown converter, customized PCB etc..
 
@@ -50,7 +50,6 @@ I made customize weight file by machine learning.
 It learned about 4000 times for 2 classes. 
 I extracted the coordinate value of fire by extracting the coordinate of the bounding box drawn when detecting fire.
 And i modified batch and subdivision for Jsons capability.
-
 
 
 * Fire wavelength detection
