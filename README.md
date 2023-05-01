@@ -1,6 +1,6 @@
 # Self-driving_fire-truck
 
-This project was created by undergraduates attending Suwon, Kyungil Univ.
+This project was created by undergraduates attending Suwon, Kyungil Univ. for 23th embedded sw contest
 
 ## Overview
 This project is the source code for self-Driving fire Truck. This code implements motion control of a 1:8 scale car, including move by joystick or autonomatically. Supporting libraries provide additional capabilities, such as object detection by camera to provide accident. The software is implemented on a Jetson Nano running Ubuntu 18.04 with ROS Melodic installed.
