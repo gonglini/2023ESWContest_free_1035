@@ -24,8 +24,8 @@ Self-driving is for patrol where being fired. We used python to send goal for RO
 
 Here's the map and the navigation we got
 
-<img src = https://user-images.githubusercontent.com/65767592/235427299-fb32638c-17a3-4ed7-bec6-ed2805b5473b.gif  width="520" height="350"  align="left">
-<img src = https://user-images.githubusercontent.com/65767592/235427736-1006aaee-7dc9-47ca-af52-d081794774f0.jpg   width="470" height="350" align="right">
+<img src = https://user-images.githubusercontent.com/65767592/235427299-fb32638c-17a3-4ed7-bec6-ed2805b5473b.gif  width="450" height="350"  align="left">
+<img src = https://user-images.githubusercontent.com/65767592/235427736-1006aaee-7dc9-47ca-af52-d081794774f0.jpg   width="420" height="350" align="right">
 
 
 ## Fire detection
