@@ -27,11 +27,14 @@ Here's the map and the navigation we got
 <img src = https://user-images.githubusercontent.com/65767592/235427299-fb32638c-17a3-4ed7-bec6-ed2805b5473b.gif  width="520" height="350"  align="left">
 <img src = https://user-images.githubusercontent.com/65767592/235427736-1006aaee-7dc9-47ca-af52-d081794774f0.jpg   width="470" height="350" align="right">
 
+
 ## Fire detection
 
 Fire detection of this project is for fire fighting purposes. So we considered a way to accurately detect fire through two sensors and then find the coordinate value of the fire.
 
 The fire detection system determines that the fire was truly detected when object detection by the camera sensor and fire wavelength detection by the flame sensor were performed at the same time.
+
+A flame sensor is detect a specific wavelength generated only fire.(185nm~260nm) It can detect up to flame of in front 0.5m
 
 ### Object Detection
 
@@ -42,8 +45,7 @@ I extracted the coordinate value of fire by extracting the coordinate of the bou
 And i modified batch and subdivision for Jsons capability.
 
 
-### Fire wavelength detection
 
-A flame sensor is detect a specific wavelength generated only fire.(185nm~260nm) It can detect up to flame of in front 0.5m
+
 
 
