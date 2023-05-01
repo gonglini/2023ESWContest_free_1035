@@ -15,12 +15,10 @@ The software is composed of Arduino, C++ and Python nodes in a ROS framework.
 The frame utilized is aluminum profile with acryl plate. 
 
 #### Software version:
-* Jetpack 4.5.1
-* OpenCV 4.5.1 CUDA 10.0 CUDNN 8.0
-* Tensorflow 2.5.0
-* Darknet yoloV4
-* ROS Melodic
-
+```
+* Jetpack 4.5.1 Darknet yoloV4 ROS Melodic
+* OpenCV 4.5.1 CUDA 10.0 CUDNN 8.0 Tensorflow 2.5.0
+```
 I used compact command to install ROS melodic written by zeta(https://github.com/zeta0707/installROS.git)
 
 
