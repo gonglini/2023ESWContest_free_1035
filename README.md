@@ -25,6 +25,15 @@ The frame utilized is aluminum profile with acryl plate.
 
 I used compact command to install ROS melodic written by zeta(https://github.com/zeta0707/installROS.git)
 
+
+## Self Driving
+
+Self-driving is for patrol where being fired. We used python to send goal for ROS SLAM. Cartogrphor is also used to obtain maps.
+
+Here is the map which we have gotten.
+
+<img src = https://user-images.githubusercontent.com/65767592/235426585-347f2315-09e6-4b78-a319-935452fc98a3.png>
+
 ## Fire detection
 
 Fire detection of this project is for fire fighting purposes. So we considered a way to accurately detect fire through two sensors and then find the coordinate value of the fire.
