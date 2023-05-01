@@ -9,12 +9,8 @@ The software is composed of Arduino, C++ and Python nodes in a ROS framework.
 
   <img src = https://user-images.githubusercontent.com/65767592/234626692-46028ea9-1cc3-433e-b677-3cb65b43b86f.PNG>
 
-                                          
-### Settings
-
-The frame utilized is aluminum profile with acryl plate. 
-
-#### Software settings
+                                         
+### Software settings
 ```
 * Jetpack 4.5.1 Darknet yoloV4 ROS Melodic
 * OpenCV 4.5.1 CUDA 10.0 CUDNN 8.0 Tensorflow 2.5.0
