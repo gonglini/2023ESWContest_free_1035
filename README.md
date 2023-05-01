@@ -39,8 +39,7 @@ A flame sensor is detect a specific wavelength generated only fire.(185nm~260nm)
 ### Object Detection
 
 The project contains object detection by using darknet yoloV4-tiny. 
-I made customize weight file by machine learning. 
-It learned about 4000 times for 2 classes. 
+I made customize weight file by machine learning.  
 I extracted the coordinate value of fire by extracting the coordinate of the bounding box drawn when detecting fire.
 And i modified batch and subdivision for Jsons capability.
 
