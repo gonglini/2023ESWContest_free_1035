@@ -14,7 +14,7 @@ The software is composed of Arduino, C++ and Python nodes in a ROS framework.
 
 The frame utilized is aluminum profile with acryl plate. 
 
-#### Software version:
+#### Software settings
 ```
 * Jetpack 4.5.1 Darknet yoloV4 ROS Melodic
 * OpenCV 4.5.1 CUDA 10.0 CUDNN 8.0 Tensorflow 2.5.0
@@ -48,6 +48,6 @@ And i modified batch and subdivision for Jsons capability.
 
 ### Fire wavelength detection
 
-A flame sensor is detect a specific wavelength generated only fire.(185nm~260nm) It can detect up to flame of in front 0.5m(50cm)
+A flame sensor is detect a specific wavelength generated only fire.(185nm~260nm) It can detect up to flame of in front 0.5m
 
 
