@@ -16,9 +16,7 @@ The frame utilized is aluminum profile with acryl plate.
 
 #### Software version:
 * Jetpack 4.5.1
-* OpenCV 4.5.1
-* CUDA 10.0
-* CUDNN 8.0
+* OpenCV 4.5.1 CUDA 10.0 CUDNN 8.0
 * Tensorflow 2.5.0
 * Darknet yoloV4
 * ROS Melodic
