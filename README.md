@@ -7,7 +7,7 @@ This project is the source code for self-Driving fire Truck. This code implement
 
 The software is composed of Arduino, C++ and Python nodes in a ROS framework.
 
-  <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/c5af81c5-d55b-409f-9fd5-a935d67dafd6.jpg  width="350" >
+  <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/c5af81c5-d55b-409f-9fd5-a935d67dafd6.jpg  height="300" >
 
 
 ### Software settings
