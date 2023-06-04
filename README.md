@@ -44,6 +44,13 @@ I extracted the coordinate value of fire by extracting the coordinate of the bou
 And i modified batch and subdivision for Jsons capability.
 
 
+##Fire extinguisher
+
+The fire extinguish system is processed by the Robot arm. When the fire was detected, they get a position where the fire was caused. 
+
+After extinguishing system got position from the jetson, the water pump  will execute the Robot arm which they included.
+
+We used a Dinamixel actuator with a U2D2 module.
 
 
 
