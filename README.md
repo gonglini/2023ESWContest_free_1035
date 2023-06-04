@@ -44,7 +44,7 @@ I extracted the coordinate value of fire by extracting the coordinate of the bou
 And i modified batch and subdivision for Jsons capability.
 
 
-##Fire extinguisher
+## Fire extinguisher
 
 The fire extinguish system is processed by the Robot arm. When the fire was detected, they get a position where the fire was caused. 
 
