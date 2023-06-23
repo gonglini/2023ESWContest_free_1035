@@ -28,6 +28,8 @@ Here's the map and the navigation we got.
 <img src = https://user-images.githubusercontent.com/65767592/235427736-1006aaee-7dc9-47ca-af52-d081794774f0.jpg   width="360" height="350" align="right">
 
 
+
+
 ## Fire detection
 
 Fire detection of this project is for fire fighting purposes. So we considered a way to accurately detect fire through two sensors and then find the coordinate value of the fire.
