@@ -31,8 +31,8 @@ Here's the map and the navigation we got.
 ## Fire detection (Darknet YoloV4)
 
 The project contains object detection by using darknet yoloV4-tiny. 
-I made customize weight file by machine learning.  
-I extracted the coordinate value of fire by extracting the coordinate of the bounding box drawn when detecting fire.
+We made customize weight file by machine learning.  
+We extracted the coordinate value of fire by extracting the coordinate of the bounding box drawn when detecting fire.
 And i modified batch and subdivision for Jsons capability.
 
 ### Fire Detection (IR sensor)
