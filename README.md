@@ -30,20 +30,20 @@ Here's the map and the navigation we got.
 
 
 
-## Fire detection
-
-Fire detection of this project is for fire fighting purposes. So we considered a way to accurately detect fire through two sensors and then find the coordinate value of the fire.
-
-The fire detection system determines that the fire was truly detected when object detection by the camera sensor and fire wavelength detection by the flame sensor were performed at the same time.
-
-A flame sensor is detect a specific wavelength generated only fire.(185nm~260nm) It can detect up to flame of in front 0.5m
-
-### Object Detection
+## Fire detection (Darknet YoloV4)
 
 The project contains object detection by using darknet yoloV4-tiny. 
 I made customize weight file by machine learning.  
 I extracted the coordinate value of fire by extracting the coordinate of the bounding box drawn when detecting fire.
 And i modified batch and subdivision for Jsons capability.
+
+### Fire Detection (IR sensor)
+
+Fire detection of this project is for fire fighting purposes. So we considered a way to accurately detect fire through two sensors and then find the coordinate value of the fire.
+
+The fire detection system determines that the fire was truly detected when object detection by the camera sensor and fire wavelength detection by the flame sensor were performed at the same time.
+
+A flame sensor is detect a specific wavelength generated only fire.(185nm~260nm) It can detect up to flame of in front 1.5m
 
 
 ## Fire extinguisher
@@ -52,8 +52,13 @@ The fire extinguish system is processed by the Robot arm. When the fire was dete
 
 After extinguishing system got position from the jetson, the water pump  will execute the Robot arm which they included.
 
-We used a Dinamixel actuator with a U2D2 module.
+We used a Dinamixel actuator AX-12 with a U2D2 module.
 
+##Application
 
+One of the important things is we had to know where and when the fire occurred. So our team also made an application for users.
+When the fire occurred, An application announce fire to the user that the situation happened.
+The application is connected by wifi with ESP8266.
+Here are how the application is processed.
 
 
