@@ -54,7 +54,7 @@ After extinguishing system got position from the jetson, the water pump  will ex
 
 We used a Dinamixel actuator AX-12 with a U2D2 module.
 
-##Application
+## Application
 
 One of the important things is we had to know where and when the fire occurred. So our team also made an application for users.
 When the fire occurred, An application announce fire to the user that the situation happened.
