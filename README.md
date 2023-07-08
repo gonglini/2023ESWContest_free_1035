@@ -59,9 +59,7 @@ We used a Dinamixel actuator AX-12 with a U2D2 module.
 
 One of the important things is we had to know where and when the fire occurred. So our team also made an application for users.   
 When the fire occurred, An application announce fire to the user that the situation happened.   
-After, it announce that robot extinguishing fire and where has it occurred
-The application is connected by wifi with ESP8266.   
-They communicate by Web with using GET method.   
-It runs as client While ESP8266 as Server.   
-Here are how the application is processed.
-
+After, it announces that the robot extinguishes the fire and where it occurred The application is connected by wifi with ESP8266.    
+They communicate by Web using the GET method.    
+It runs as a client While ESP8266 as Server.    
+Here are how the application is processed.    
