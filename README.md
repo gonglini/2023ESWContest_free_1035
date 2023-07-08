@@ -1,8 +1,8 @@
 # Self-driving_fire-truck
 
 This project was created by undergraduates attending Suwon, Kyungil Univ. for 21th 2023embedded sw contest
-<img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/36d6ebdd-c0c3-4b90-a59a-4096cc5b802d.jpeg width="360" height="350" align="right">
-![Uploading IMG_7969.jpeg…]()
+<img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/36d6ebdd-c0c3-4b90-a59a-4096cc5b802d.jpeg width="450" height="350" align="right">
+
 
 ## Overview
 This project is the source code for self-Driving fire Truck. This code implements motion control of a 1:8 scale car, including move by joystick or autonomatically. Supporting libraries provide additional capabilities, such as object detection by camera to provide accident. The software is implemented on a Jetson Nano running Ubuntu 18.04 with ROS Melodic installed.
