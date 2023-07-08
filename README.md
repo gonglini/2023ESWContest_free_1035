@@ -46,7 +46,7 @@ A flame sensor is detect a specific wavelength generated only fire.(185nm~260nm)
 
 ## Fire extinguisher (Robot Arm)
 
-   <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/15f0531c-172c-4d51-a259-3555f71480d0.gif width="450" height="350"   align="left">   
+   <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/15f0531c-172c-4d51-a259-3555f71480d0.gif width="550" height="250"   align="left">   
 The fire extinguish system is processed by the Robot arm. When the fire was detected, they get a position where the fire was caused.   
 After extinguishing system got position from the jetson, the water pump  will execute the Robot arm which they included.   
 We used a Dinamixel actuator AX-12 with a U2D2 module.<br/>   
