@@ -1,6 +1,6 @@
 # Self-driving_fire-truck
 
-This project was created by undergraduates attending Suwon, Kyungil Univ. for 21th 2023embedded sw contest
+This project is created for 21th 2023embedded SW contest by undergraduates attending Suwon, Kyungil Univ. 
 <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/36d6ebdd-c0c3-4b90-a59a-4096cc5b802d.jpeg width="450" height="350" align="right">
 
 
