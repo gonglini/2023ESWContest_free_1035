@@ -26,8 +26,8 @@ Here's the map and the navigation we got.
 
   <img src = https://user-images.githubusercontent.com/65767592/235427299-fb32638c-17a3-4ed7-bec6-ed2805b5473b.gif  width="450" height="350"  align="left">
   <img src = https://user-images.githubusercontent.com/65767592/235427736-1006aaee-7dc9-47ca-af52-d081794774f0.jpg   width="360" height="350" align="right">
-
-
+    
+    
 ## Fire detection (Darknet YoloV4)
 
 The project contains object detection by using darknet yoloV4-tiny. 
