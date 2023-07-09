@@ -20,7 +20,7 @@ I used compact command to install ROS melodic written by Zeta (https://github.co
 ## Software Flow
   <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/531eb7bb-9086-449d-bdcc-fade2fef8485.jpg  height="360" >
 
-## Self Driving
+## Self Driving (Slam navigation)
 
 Self-driving is for patrol where being fired. We used Python to send the goal for ROS SLAM. Cartographer is also used to obtain maps.
 
