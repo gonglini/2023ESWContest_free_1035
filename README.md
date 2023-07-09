@@ -5,7 +5,7 @@ This project is created for the 21st 2023 embedded SW contest by undergraduates 
 
 ## Overview
 
-<img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/36d6ebdd-c0c3-4b90-a59a-4096cc5b802d.jpeg width="450" height="350" align="right">   
+<img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/36d6ebdd-c0c3-4b90-a59a-4096cc5b802d.jpeg width="440" height="350" align="right">   
 This project is Detect & Extinguish Fire Servies (Self-driving Fire Truck).
 It is made for patrol inside the buildings to prevent fire accidents indoors when nobody is in there such as at midnight.
 Even if fire accidents occurred, it detects and extinguishes them automatically. 
