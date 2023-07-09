@@ -86,8 +86,6 @@ def detectAndDisplay(frame):
 
 
 
-    #end_time = time.time()
-    #process_time = end_time - start_time
 
    # cv2.imshow("FIre detection", img)
     if inter ==0:
