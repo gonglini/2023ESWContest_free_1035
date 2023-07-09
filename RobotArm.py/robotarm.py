@@ -183,7 +183,6 @@ def ArmControl(robot,x, y):
     # 포트 연결 해제
     portHandler.closePort()
 
-
 if __name__ == '__main__':
 
     
