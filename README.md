@@ -1,4 +1,4 @@
-# Detect & Extinguish Fire Servies (Self-driving_fire-truck)
+# Detect & Extinguish Fire Servies (Self-driving fire truck)
 
 This project is created for 21th 2023embedded SW contest by undergraduates attending Suwon, Kyungil Univ. 
 <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/36d6ebdd-c0c3-4b90-a59a-4096cc5b802d.jpeg width="450" height="350" align="right">
@@ -30,20 +30,22 @@ Here's the map and the navigation we got.
   <img src = https://user-images.githubusercontent.com/65767592/235427736-1006aaee-7dc9-47ca-af52-d081794774f0.jpg   width="360" height="350" align="right">
     
     
-## Fire detection (Darknet YoloV4)
-
-The project contains object detection by using darknet yoloV4-tiny. 
+## Fire detection 
+| Darknet YoloV4  | IR sensor  |
+|---|---|
+|The project contains object detection by using darknet yoloV4-tiny. 
 We made customize weight file by machine learning.  
 We extracted the coordinate value of fire by extracting the coordinate of the bounding box drawn when detecting fire.
-And i modified batch and subdivision for Jsons capability.
-
-### Fire Detection (IR sensor)
-
-Fire detection of this project is for fire fighting purposes. So we considered a way to accurately detect fire through two sensors and then find the coordinate value of the fire.
+And i modified batch and subdivision for Jsons capability.   |  Fire detection of this project is for fire fighting purposes. So we considered a way to accurately detect fire through two sensors and then find the coordinate value of the fire.
 
 The fire detection system determines that the fire was truly detected when object detection by the camera sensor and fire wavelength detection by the flame sensor were performed at the same time.
 
-A flame sensor is detect a specific wavelength generated only fire.(185nm~260nm) It can detect up to flame of in front 1.5m
+A flame sensor is detect a specific wavelength generated only fire.(185nm~260nm) It can detect up to flame of in front 1.5m |
+
+
+### Fire Detection ()
+
+
 
 
 ## Fire extinguisher (Robot Arm)
