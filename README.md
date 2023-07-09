@@ -10,14 +10,14 @@ This project is the source code for self-Driving fire Truck. This code implement
 The software is composed of Arduino, C++ and Python nodes in a ROS framework.
 
 
-### Software settings
+## Software settings
 ```
 * Jetpack 4.5.1 / Darknet yoloV4 / ROS Melodic
 * OpenCV 4.5.1 / CUDA 10.0 / CUDNN 8.0 / Tensorflow 2.5.0
 ```
 I used compact command to install ROS melodic written by zeta(https://github.com/zeta0707/installROS.git)
 
-### Software Flow
+## Software Flow
   <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/531eb7bb-9086-449d-bdcc-fade2fef8485.jpg  height="360" >
 
 ## Self Driving
