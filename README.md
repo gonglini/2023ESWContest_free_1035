@@ -16,6 +16,8 @@ The software is composed of Arduino, C++ and Python nodes in a ROS framework.
 * OpenCV 4.5.1 / CUDA 10.0 / CUDNN 8.0 / Tensorflow 2.5.0
 ```
 I used compact command to install ROS melodic written by zeta(https://github.com/zeta0707/installROS.git)
+
+### Software Flow
   <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/531eb7bb-9086-449d-bdcc-fade2fef8485.jpg  height="360" >
 
 ## Self Driving
@@ -24,7 +26,7 @@ Self-driving is for patrol where being fired. We used python to send goal for RO
 
 Here's the map and the navigation we got.
 
-  <img src = https://user-images.githubusercontent.com/65767592/235427299-fb32638c-17a3-4ed7-bec6-ed2805b5473b.gif  width="450" height="350"  align="left">
+  <img src = https://user-images.githubusercontent.com/65767592/235427299-fb32638c-17a3-4ed7-bec6-ed2805b5473b.gif  width="440" height="350"  align="left">
   <img src = https://user-images.githubusercontent.com/65767592/235427736-1006aaee-7dc9-47ca-af52-d081794774f0.jpg   width="360" height="350" align="right">
     
     
