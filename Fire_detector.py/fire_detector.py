@@ -27,7 +27,6 @@ with open("/home/swcon/darknet/obj.names", "r") as f:
 layer_names = net.getLayerNames()
 output_layers = [layer_names[int(i) - 1] for i in net.getUnconnectedOutLayers()]
 
-
 colors = np.random.uniform(0, 255, size=(len(classes)*2000, 3))
 
 cap = cv2.VideoCapture(0, int(cv2.CAP_V4L))
