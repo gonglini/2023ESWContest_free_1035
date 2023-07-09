@@ -6,12 +6,12 @@ This project is created for the 21st 2023 embedded SW contest by undergraduates 
 ## Overview
 
 <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/36d6ebdd-c0c3-4b90-a59a-4096cc5b802d.jpeg width="450" height="350" align="right">
-This project is Detect & Extinguish Fire Servies (Self-driving Fire Truck).  
-It is made for patrol inside the buildings to prevent fire accidents indoors when nobody is in there such as at midnight.  
-Even if fire accidents occurred, it detects and extinguishes them automatically.  
-This code implements motion control of a 1:8 scale car, including moving by joystick or automatically. Supporting libraries provide additional capabilities, such as object detection by the camera to provide accidents.  
-The software is implemented on a Jetson Nano running Ubuntu 18.04 with ROS Melodic installed.  
-The software is composed of Arduino, C++, and Python nodes in a ROS framework.
+This project is Detect & Extinguish Fire Servies (Self-driving Fire Truck).   
+It is made for patrol inside the buildings to prevent fire accidents indoors when nobody is in there such as at midnight.   
+Even if fire accidents occurred, it detects and extinguishes them automatically.    
+This code implements motion control of a 1:8 scale car, including moving by joystick or automatically. Supporting libraries provide additional capabilities, such as object detection by the camera to provide accidents.   
+The software is implemented on a Jetson Nano running Ubuntu 18.04 with ROS Melodic installed.   
+The software is composed of Arduino, C++, and Python nodes in a ROS framework.  
 
 
 ## Software settings
