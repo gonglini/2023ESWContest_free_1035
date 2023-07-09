@@ -12,7 +12,7 @@ The software is composed of Arduino, C++, and Python nodes in a ROS framework.
 
 ## Software settings
 ```
-* Jetpack 4.5.1 / Darknet yoloV4 / ROS Melodic
+* Jetpack 4.5.1 / Darknet yoloV4 / ROS Melodic / Dinamixel SDK
 * OpenCV 4.5.1 / CUDA 10.0 / CUDNN 8.0 / Tensorflow 2.5.0
 ```
 I used compact command to install ROS melodic written by Zeta (https://github.com/zeta0707/installROS.git)
