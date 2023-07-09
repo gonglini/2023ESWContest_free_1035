@@ -31,6 +31,7 @@ Here's the map and the navigation we got.
     
     
 ## Fire detection 
+<p align="center"><img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/15f0531c-172c-4d51-a259-3555f71480d0.gif width="700" height="300"  ></p>   
 |  Darknet YoloV4  | IR sensor  |
 |---|---|
 |The project contains object detection by using darknet yoloV4-tiny. We made customize weight file by machine learning.  We extracted the coordinate value of fire by extracting the coordinate of the bounding box drawn when detecting fire.And i modified batch and subdivision for Jsons capability.   |  Fire detection of this project is for fire fighting purposes.  So we considered a way to accurately detect fire through two sensors and then find the coordinate value of the fire.  The fire detection system determines that the fire was truly detected when object detection by the camera sensor and fire wavelength detection by the flame sensor were performed at the same time.  A flame sensor is detect a specific wavelength generated only fire.(185nm~260nm) It can detect up to flame of in front 1.5m |
@@ -41,8 +42,6 @@ Here's the map and the navigation we got.
 
 
 ## Fire extinguisher (Robot Arm)
-
-<p align="center"><img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/15f0531c-172c-4d51-a259-3555f71480d0.gif width="700" height="300"  ></p>   
 The fire extinguish system is processed by the Robot arm. When the fire was detected, they get a position where the fire was caused.    
 
 After extinguishing system got position from the jetson, the water pump  will execute the Robot arm which is included.    
