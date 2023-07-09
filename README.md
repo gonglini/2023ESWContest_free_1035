@@ -1,13 +1,13 @@
 # Detect & Extinguish Fire Servies (Self-driving fire truck)
 
-This project is created for 21th 2023embedded SW contest by undergraduates attending Suwon, Kyungil Univ. 
+This project is created for the 21st 2023 embedded SW contest by undergraduates attending Suwon, Kyungil Univ. 
 <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/36d6ebdd-c0c3-4b90-a59a-4096cc5b802d.jpeg width="450" height="350" align="right">
 
 
 ## Overview
-This project is the source code for self-Driving fire Truck. This code implements motion control of a 1:8 scale car, including move by joystick or autonomatically. Supporting libraries provide additional capabilities, such as object detection by camera to provide accident. The software is implemented on a Jetson Nano running Ubuntu 18.04 with ROS Melodic installed.
+This project is the source code for a self-Driving fire Truck. This code implements motion control of a 1:8 scale car, including moving by joystick or automatically. Supporting libraries provide additional capabilities, such as object detection by camera to provide accidents. The software is implemented on a Jetson Nano running Ubuntu 18.04 with ROS Melodic installed.
 
-The software is composed of Arduino, C++ and Python nodes in a ROS framework.
+The software is composed of Arduino, C++, and Python nodes in a ROS framework.
 
 
 ## Software settings
@@ -15,14 +15,14 @@ The software is composed of Arduino, C++ and Python nodes in a ROS framework.
 * Jetpack 4.5.1 / Darknet yoloV4 / ROS Melodic
 * OpenCV 4.5.1 / CUDA 10.0 / CUDNN 8.0 / Tensorflow 2.5.0
 ```
-I used compact command to install ROS melodic written by zeta(https://github.com/zeta0707/installROS.git)
+I used compact command to install ROS melodic written by Zeta (https://github.com/zeta0707/installROS.git)
 
 ## Software Flow
   <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/531eb7bb-9086-449d-bdcc-fade2fef8485.jpg  height="360" >
 
 ## Self Driving
 
-Self-driving is for patrol where being fired. We used python to send goal for ROS SLAM. Cartogrphor is also used to obtain maps.
+Self-driving is for patrol where being fired. We used Python to send the goal for ROS SLAM. Cartographer is also used to obtain maps.
 
 Here's the map and the navigation we got.
 
@@ -34,14 +34,14 @@ Here's the map and the navigation we got.
 
 |  Darknet YoloV4  | IR sensor  |
 |---|---|
-|The project contains object detection by using darknet yoloV4-tiny. We made customize weight file by machine learning.  We extracted the coordinate value of fire by extracting the coordinate of the bounding box drawn when detecting fire.And i modified batch and subdivision for Jsons capability.   |  Fire detection of this project is for fire fighting purposes.  So we considered a way to accurately detect fire through two sensors and then find the coordinate value of the fire.  The fire detection system determines that the fire was truly detected when object detection by the camera sensor and fire wavelength detection by the flame sensor were performed at the same time.  A flame sensor is detect a specific wavelength generated only fire.(185nm~260nm) It can detect up to flame of in front 1.5m |
+|The project contains object detection by using the darknet yoloV4-tiny. We made customized weight files by machine learning.  We extracted the coordinate value of fire by extracting the coordinate of the bounding box drawn when detecting fire. We modified batch and subdivision for Jsons capability.   |  Fire detection of this project is for fire fighting purposes.  So we considered a way to accurately detect fire through two sensors and then find the coordinate value of the fire.  The fire detection system determines that the fire was truly detected when object detection by the camera  and fire wavelength detection by the flame sensor was performed at the same time.  A flame sensor detects a specific wavelength generated only by fire. (185nm~260nm) It can detect up to flame of in front 1.5m |
 
 
 ## Fire extinguisher (Robot Arm)
 <p align="center"><img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/15f0531c-172c-4d51-a259-3555f71480d0.gif width="700" height="300"  ></p>    
-The fire extinguish system is processed by the Robot arm. When the fire was detected, they get a position where the fire was caused.    
+The fire extinguishing system is processed by the Robot arm. When the fire was detected, they get a position where the fire was caused.    
 
-After extinguishing system got position from the jetson, the water pump  will execute the Robot arm which is included.    
+After the extinguishing system got position from the jetson, the water pump  will execute the Robot arm which is included.    
 We used a Dinamixel actuator AX-12 with a U2D2 module.
  
     
@@ -52,7 +52,7 @@ We used a Dinamixel actuator AX-12 with a U2D2 module.
 One of the important things is we had to know where and when the fire occurred.  
 So our team also made an application for users.   
 When the fire occurred, An application announce fire to the user that the situation happened.   
-After, it announces that the robot extinguishes the fire and where it occurred The application is connected by wifi with ESP8266.    
+After it announces that the robot extinguishes the fire and where it occurred The application is connected by wifi with ESP8266.    
 They communicate by Web using the GET method.    
 It runs as a client While ESP8266 as Server.    
 Here are how the application is processed.    
