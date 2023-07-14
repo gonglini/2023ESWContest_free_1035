@@ -9,8 +9,8 @@ This project is created for the 21st 2023 embedded SW contest by undergraduates 
 This project aims to ensure fire safety inside buildings, particularly during unoccupied hours like midnight. 
 Even in the event of a fire, this autonomous system can detect and extinguish flames automatically while simultaneously alerting the user through a dedicated application.
 This code implements motion control of a 1:8 scale car, including moving by joystick or automatically. Supporting libraries provide additional capabilities, such as object detection by the camera to provide accidents.
-The software is implemented on a Jetson Nano running Ubuntu 18.04 with ROS Melodic installed.   
-The software is composed of Arduino, C++, and Python nodes in a ROS framework.
+The software is built on a Jetson Nano platform running Ubuntu 18.04, with the ROS Melodic framework serving as the foundation.
+Combining Arduino, C++, and Python nodes, this ROS-based software orchestrates the seamless interaction of various components, ensuring a comprehensive and reliable fire prevention and response system.
 
 
 ## Software settings
@@ -18,7 +18,7 @@ The software is composed of Arduino, C++, and Python nodes in a ROS framework.
 * Jetpack 4.5.1 / Darknet yoloV4 / ROS Melodic / Dinamixel SDK
 * OpenCV 4.5.1 / CUDA 10.0 / CUDNN 8.0 / Tensorflow 2.5.0
 ```
-I used compact command to install ROS melodic written by Zeta (https://github.com/zeta0707/installROS.git)
+We used compact command to install ROS melodic written by Zeta (https://github.com/zeta0707/installROS.git)
 
 ## Major Flow Diagram
   <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/531eb7bb-9086-449d-bdcc-fade2fef8485.jpg  height="360" >
