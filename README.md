@@ -27,6 +27,7 @@ I used compact command to install ROS melodic written by Zeta (https://github.co
 ## Self Driving (Slam navigation)
 
 Self-driving is for patrol where being fired. We used Python to send the goal for ROS SLAM. Cartographer is also used to obtain maps.
+We used Rplidar A1 to obtain maps with a laser scan. The car moves to goals serval times where we setup before. There is location information that contains x, y, and z(orientation)
 
 Here's the map and the navigation we got.
 
@@ -43,9 +44,9 @@ Here's the map and the navigation we got.
 
 ## Fire extinguisher (Robot Arm)
 <p align="center"><img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/15f0531c-172c-4d51-a259-3555f71480d0.gif width="700" height="300"  ></p>    
-The fire extinguishing system is processed by the Robot arm. When the fire was detected, they get a position where the fire was caused.    
+The Robot arm processes the fire extinguishing system. When the fire is detected, they get a position where the fire was caused.  
 
-After the extinguishing system got position from the jetson, the water pump  will execute the Robot arm which is included.    
+After the extinguishing system gets fire information from the jetson, the robot arm will execute the included water pump.   
 We used a Dinamixel actuator AX-12 with a U2D2 module.
  
     
@@ -58,5 +59,5 @@ So our team also made an application for users.
 When the fire occurred, An application announce fire to the user that the situation happened.   
 After it announces that the robot extinguishes the fire and where it occurred The application is connected by wifi with ESP8266.    
 They communicate by Web using the GET method.    
-It runs as a client While ESP8266 as Server.    
+It runs as a client While ESP8266 is a Server.    
 Here are how the application is processed.    
