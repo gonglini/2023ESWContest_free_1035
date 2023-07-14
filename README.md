@@ -63,7 +63,7 @@ Here are how the application is processed.
 
 ## Future Work
 
-Our desired future goals for this project, in order of preference, are to:
+Our desired future goals for this project, in order of preference, are to:    
 1.   
 2.   
 3.   
@@ -72,7 +72,7 @@ Our desired future goals for this project, in order of preference, are to:
 ## External Links and References
 * Compact command to install ROS melodic. : https://github.com/zeta0707/installROS.git
 
-* Research paper used for Ros navigation. : https://automaticaddison.com/how-to-set-up-the-ros-navigation-stack-on-a-robot/`
-                                          : https://github.com/omorobot/omo_r1mini
-                                          : https://github.com/bandasaikrishna/Autonomous_Mobile_Robot
+* Research paper used for Ros navigation. : https://automaticaddison.com/how-to-set-up-the-ros-navigation-stack-on-a-robot      
+                                          : https://github.com/omorobot/omo_r1mini    
+                                          : https://github.com/bandasaikrishna/Autonomous_Mobile_Robot    
 
