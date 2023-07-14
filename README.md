@@ -49,7 +49,7 @@ We used a Dinamixel actuator AX-12 with a U2D2 module.
  
     
 ## Application
-  <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/98005e97-6d1a-4589-a7d7-dc19c0718fd5.gif  width="330" height="340"  align="right">
+  <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/98005e97-6d1a-4589-a7d7-dc19c0718fd5.gif  width="310" height="330"  align="right">
 
 One of the important things is we had to know where and when the fire occurred.  
 So our team also made an application for users.   
