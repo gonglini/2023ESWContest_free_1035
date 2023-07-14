@@ -21,7 +21,7 @@ The software is composed of Arduino, C++, and Python nodes in a ROS framework.
 ```
 I used compact command to install ROS melodic written by Zeta (https://github.com/zeta0707/installROS.git)
 
-## Software Flow
+## Major Flow Diagram
   <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/531eb7bb-9086-449d-bdcc-fade2fef8485.jpg  height="360" >
 
 ## Self Driving (Slam navigation)
