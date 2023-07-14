@@ -18,7 +18,6 @@ Combining Arduino, C++, and Python nodes, this ROS-based software orchestrates t
 * Jetpack 4.5.1 / Darknet yoloV4 / ROS Melodic / Dinamixel SDK
 * OpenCV 4.5.1 / CUDA 10.0 / CUDNN 8.0 / Tensorflow 2.5.0
 ```
-We used compact command to install ROS melodic written by Zeta (https://github.com/zeta0707/installROS.git)
 
 ## Major Flow Diagram
   <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/531eb7bb-9086-449d-bdcc-fade2fef8485.jpg  height="360" >
@@ -60,3 +59,19 @@ After it announces that the robot extinguishes the fire and where it occurred Th
 They communicate by Web using the GET method.    
 It runs as a client While ESP8266 is a Server.    
 Here are how the application is processed.    
+
+## Future Work
+
+Our desired future goals for this project, in order of preference, are to:
+1. 
+2. 
+3. 
+4. 
+
+## External Links and References
+* Compact command to install ROS melodic. : https://github.com/zeta0707/installROS.git
+
+* Research paper used for Ros navigation. : https://automaticaddison.com/how-to-set-up-the-ros-navigation-stack-on-a-robot/`
+                                          : https://github.com/omorobot/omo_r1mini
+                                          : https://github.com/bandasaikrishna/Autonomous_Mobile_Robot
+
