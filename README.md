@@ -1,4 +1,4 @@
-# Detect & Extinguish Fire Services (Self-driving fire truck)
+# Automatic Detect & Extinguish Fire Services (Self-driving fire truck)
 
 This project is created for the 21st 2023 embedded SW contest by undergraduates attending Suwon, Kyungil Univ. 
 
