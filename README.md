@@ -56,17 +56,9 @@ So our team also made an application for users.
 When the fire occurred, An application announce fire to the user that the situation happened.   
 After the robot extinguishes the fire, it announces where the fire occurred.
 The application is connected by wifi with ESP8266 which communicates by Web using the GET method.    
-It runs as a client While ESP8266 is a Server.   
+It runs as a client While ESP8266 is a Server.    
 
 Here are how the application is processed.    
-
-## Future Work
-
-Our desired future goals for this project, in order of preference, are to:    
-1.   
-2.   
-3.   
-4.   
 
 ## External Links and References
 * Compact command to install ROS melodic. : https://github.com/zeta0707/installROS.git
