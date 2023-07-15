@@ -1,5 +1,5 @@
 const int flamePin = 9; 
-const int flameDetected = 5;
+const int Detected = 5;
 int cnt =0;
 int relay = 2;
 
@@ -24,7 +24,7 @@ void loop() {
       delay(1000); // 
     }
   if(serial_data =='fire detected'){
-    digitalWrite(flameDetected,HIGH);
+    digitalWrite(Detected,HIGH);
     
   }
     
