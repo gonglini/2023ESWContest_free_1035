@@ -67,7 +67,7 @@ def ArmControl(robot,x, y):
 
     # Default setting
 
-    #다인나믹셀 통신 속도, 포트 
+    #다이나믹셀 통신 속도, 포트 
     BAUDRATE                    = 1000000                
     DEVICENAME                  =  '/dev/ttyUSB0' # 'COM31'
     # ex) Windows: "COM1"   Linux: "/dev/ttyUSB0" Mac: "/dev/tty.usbserial-*"
