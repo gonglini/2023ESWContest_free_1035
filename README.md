@@ -36,7 +36,7 @@ Here's the map and the navigation we got.
 ## Fire detection  
 
   <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/2dbe1e03-f07f-4706-a245-5c3c485cfce0.png  width="380" height="300"  align="left">
-  <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/883f5a7d-ad22-4fd4-bbd6-7b733622e32b.gif   width="430" height="300" align="right">
+  <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/883f5a7d-ad22-4fd4-bbd6-7b733622e32b.gif   width="420" height="300" align="right">
     
 |  Darknet YoloV4  | IR sensor  |
 |---|---|
