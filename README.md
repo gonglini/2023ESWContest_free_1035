@@ -35,14 +35,14 @@ Here's the map and the navigation we got.
     
 ## Fire detection  
 
-
+  <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/2dbe1e03-f07f-4706-a245-5c3c485cfce0.png  width="400" height="300"  align="left">
+  <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/883f5a7d-ad22-4fd4-bbd6-7b733622e32b.gif   width="430" height="300" align="right">
     
 |  Darknet YoloV4  | IR sensor  |
 |---|---|
 |The project contains object detection by using the darknet yoloV4-tiny. We made customized weight files by machine learning.  We extracted the coordinate value of fire by extracting the coordinate of the bounding box drawn when detecting fire. We modified batch and subdivision for Jsons capability.   |  Fire detection of this project is for fire fighting purposes.  So we considered a way to accurately detect fire through two sensors and then find the coordinate value of the fire.  The fire detection system determines that the fire was truly detected when object detection by the camera  and fire wavelength detection by the flame sensor was performed at the same time.  A flame sensor detects a specific wavelength generated only by fire. (185nm~260nm) It can detect up to flame of in front 1.5m |
 
-  <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/2dbe1e03-f07f-4706-a245-5c3c485cfce0.png  width="370" height="300"  align="left">
-  <img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/883f5a7d-ad22-4fd4-bbd6-7b733622e32b.gif   width="430" height="300" align="right">
+
 
 ## Fire extinguisher (Robot Arm)
 <p align="center"><img src = https://github.com/gonglini/Embedded_sw_contest_2023/assets/65767592/15f0531c-172c-4d51-a259-3555f71480d0.gif width="700" height="300"  ></p>    
