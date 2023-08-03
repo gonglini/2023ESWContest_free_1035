@@ -159,13 +159,13 @@ def ArmControl(robot,x, y):
     for i in range(0, 9):
         #좌
         for j in range (0, 40):
-            dxl_comm_result, dxl_error = packetHandler.write4ByteTxRx(portHandler, i, ADDR_MX_GOAL_POSITION, 512 + int(g) * int(2) - (j*2))
+            dxl_comm_result, dxl_error = packetHandler.write4ByteTxRx(portHandler, 1, ADDR_MX_GOAL_POSITION, 512 + int(g) * int(2) - (j*2))
 
 
         time.sleep(0.5)
         #우
         for j in range (0, 40):
-            dxl_comm_result, dxl_error = packetHandler.write4ByteTxRx(portHandler, i, ADDR_MX_GOAL_POSITION, 432 + int(g) * int(2) + (j*2))
+            dxl_comm_result, dxl_error = packetHandler.write4ByteTxRx(portHandler, 1, ADDR_MX_GOAL_POSITION, 432 + int(g) * int(2) + (j*2))
 
         time.sleep(1)
     
