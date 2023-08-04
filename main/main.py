@@ -114,9 +114,3 @@ def main():
                         print("프로그램을 종료합니다.")
                         sys.exit(0)
                 rospy.sleep(0.1)
-
-        choice_to_continue = input("\n다른 목적지로 이동하시겠습니까? (Y/N): ")
-        if choice_to_continue.lower() != 'y':
-            break
-
-
