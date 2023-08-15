@@ -19,10 +19,10 @@ Combining Arduino, C++, and Python nodes, this ROS-based software orchestrates t
 * OpenCV 4.5.1 / CUDA 10.0 / CUDNN 8.0 / Tensorflow 2.5.0
 ```
 ## Software configuration
- <img src =https://github.com/gonglini/2023ESWContest_free_1035/assets/65767592/be930881-b53f-496e-818e-85e0f2450f11.jpg   width="630" height="330" >
-
+ <img src =https://github.com/gonglini/2023ESWContest_free_1035/assets/65767592/be930881-b53f-496e-818e-85e0f2450f11.jpg   width="430" height="350"  align="left" >
+ <img src = https://github.com/gonglini/2023ESWContest_free_1035/assets/65767592/e3345cfb-fc56-49b5-a879-9e79a773239e.jpg   width="370" height="350" align="right" >
 ## Major Flow Diagram
- <img src = https://github.com/gonglini/2023ESWContest_free_1035/assets/65767592/e3345cfb-fc56-49b5-a879-9e79a773239e.jpg  height="300" >
+
 
 ## Self Driving (Slam navigation)
 
