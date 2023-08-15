@@ -8,7 +8,7 @@ import serial
 from geometry_msgs.msg import PoseWithCovarianceStamped
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
 from actionlib import SimpleActionClient
-from detect_demo import detect_fire
+from fire_detector import detect_fire
 from Extinguisher import ArmControl
 
 ser = serial.Serial('/dev/ttyUSB0', 9600)
