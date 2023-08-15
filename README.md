@@ -20,8 +20,8 @@ Combining Arduino, C++, and Python nodes, this ROS-based software orchestrates t
 ```
 ## Software configuration
  <img src =https://github.com/gonglini/2023ESWContest_free_1035/assets/65767592/be930881-b53f-496e-818e-85e0f2450f11.jpg   width="410" height="320"  align="left" >
- <img src = https://github.com/gonglini/2023ESWContest_free_1035/assets/65767592/e3345cfb-fc56-49b5-a879-9e79a773239e.jpg   width="370" height="320" align="right" >
-## Major Flow Diagram
+ <img src = https://github.com/gonglini/2023ESWContest_free_1035/assets/65767592/e3345cfb-fc56-49b5-a879-9e79a773239e.jpg   width="380" height="320" align="right" >
+
 
 
 ## Self Driving (Slam navigation)
