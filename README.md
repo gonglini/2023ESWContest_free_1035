@@ -20,7 +20,7 @@ Combining Arduino, C++, and Python nodes, this ROS-based software orchestrates t
 ```
 ## Software configuration
 
- <img src = <img src =https://github.com/gonglini/2023ESWContest_free_1035/assets/65767592/be930881-b53f-496e-818e-85e0f2450f11.jpg    >
+<p align="center"> <img src =https://github.com/gonglini/2023ESWContest_free_1035/assets/65767592/be930881-b53f-496e-818e-85e0f2450f11.jpg  width="930" height="370" ></p>
 
 
 
