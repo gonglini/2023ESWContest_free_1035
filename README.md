@@ -68,7 +68,6 @@ It runs as a client While ESP8266 is a Server.
 Here are how the application is processed.    
 
 ## External Links and References
-* Compact command to install ROS melodic. : https://github.com/zeta0707/installROS.git
 
 * Research used for ROS SLAM Navigation. : https://automaticaddison.com/how-to-set-up-the-ros-navigation-stack-on-a-robot      
                                           : https://github.com/omorobot/omo_r1mini    
