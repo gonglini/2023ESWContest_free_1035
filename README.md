@@ -18,7 +18,7 @@ Combining Arduino, C++, and Python nodes, this ROS-based software orchestrates t
 * Jetpack 4.5.1 / Darknet yoloV4 / ROS Melodic / Dinamixel SDK
 * OpenCV 4.5.1 / CUDA 10.0 / CUDNN 8.0 / Tensorflow 2.5.0
 ```
-## Software configuration
+## Key software configuration
 
 <p align="center"> <img src =https://github.com/gonglini/2023ESWContest_free_1035/assets/65767592/be930881-b53f-496e-818e-85e0f2450f11.jpg  width="930" height="370" ></p>
 
